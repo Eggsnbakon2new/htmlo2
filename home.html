@@ -31,9 +31,36 @@
         background-color: aqua;
         border: 1px solid aqua;
         border-radius: 20px;
+        display:inline-block;
+        text-align:left;
     }
     a{
         text-decoration: none;
+    }
+    #bean{
+        display:inline-block;
+        text-align:left;
+    }
+    #specialformat{
+        color:blue;
+        text-shadow: 3px 3px 3px blue; 
+        animation-name: explosion;
+        animation-iteration-count:infinite;
+        animation-duration: 2s;
+    }
+    @keyframes explosion{
+        0%{
+           color:blue;
+           text-shadow: 3px 3px 3px blue; 
+        }
+        40%{
+            color:purple;
+            text-shadow: 3px 3px 3px purple;
+        }
+        75%{
+            color:red;
+            text-shadow: 3px 3px 3px red;
+        }
     }
 </style>
 <title>Dinosaurs Homepage</title>
@@ -44,11 +71,11 @@
     get the contents about each topic name in your list
     and save them in another file
     add more content (text) to homepage!-->
-    <h1>All About Dinosaurs!</h1>
+    <h1 id="beans">All About Dinosaurs!</h1>
     <p id="intro">This is a website dedicated to all about dinosaurs. They're one of my favorite animals, even if they don't exist anymore. </p>
     <img id="home" src="https://www.nps.gov/dino/learn/nature/images/apatosaurus_1.jpg">
-    <h3>Dinosaurs Featured In This Website</h3>
-    <ul>
+    <h3 id="specialformat">Dinosaurs Featured In This Website</h3>
+    <ul id="bean">
         <div>
         <li>T. Rex</li>
         <li>Spinosaurus</li>
@@ -58,5 +85,6 @@
         <li>Triceratops</li>
         </div>
     </ul>
+    <br>
     <div id="click"><a href="cover.html">Click me!</a></div>
 </body>
