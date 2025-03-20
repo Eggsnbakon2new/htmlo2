@@ -1,0 +1,55 @@
+<html>
+    <title>page 3</title>
+    <style>
+        body{
+            background-color:cornflowerblue;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size:12px;
+        }
+        p{
+            background-color:aquamarine;
+        }
+        div{
+            background-color:orange;
+            height:250px;
+            width:400;
+            padding:40px;
+            border: 2px solid blue
+        }
+        h3{
+            color:blue;
+            font-size: 25px;
+            text-shadow:8px 8px 7px yellow;
+        }
+        h5{
+            color:yellow;
+            font-size:14px;
+            text-shadow:4px 4px 3px yellowgreen;
+        }
+        img{
+            border-radius:20%;
+        }
+    </style>
+    <head>the tale of pre, paragraph, and text shadow</head>
+    <body>
+        <h3>About Website</h3>
+        <p>
+            This website was designed to be an image gallery! 
+            <br>I hope I can add more pages to this and make it decently long.
+            <br>I also hope it doesn't explode, but if you're viewing this, it hasn't!
+        </p>
+        <h4>Displaying the same sentences using pre tag:</h4>
+        <pre>
+This website was designed to be an image gallery! 
+I hope I can add more pages to this and make it decently long.
+I also hope it doesn't explode, but if you're viewing this, it hasn't!
+        </pre>
+        <h5>use of div tags:</h5>
+        <div>
+            This website was designed to be an image gallery! <br>
+I hope I can add more pages to this and make it decently long. <br>
+I also hope it doesn't explode, but if you're viewing this, it hasn't!
+<img width=400 src="effewuf.png.webp">        
+</div>
+    </body>
+</html>
